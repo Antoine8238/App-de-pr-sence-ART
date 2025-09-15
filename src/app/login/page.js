@@ -1,6 +1,6 @@
 // pages/login.js (ou app/login/page.js pour App Router)
+import Link from 'next/link';
 import LoginForm from '../components/LoginForm';
-
 export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
